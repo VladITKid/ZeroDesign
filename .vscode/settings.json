@@ -1,0 +1,14 @@
+{
+    // Настройки компиляции "Live Sass Compiler"
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/frontend/css/",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveSassCompile.settings.showOutputWindow": false, // Скрываю окно выходных данных SCSS компиляции
+}

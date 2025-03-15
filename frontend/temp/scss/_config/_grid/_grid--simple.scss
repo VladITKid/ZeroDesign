@@ -1,0 +1,64 @@
+// ! : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :
+// ! Элементы в сетке страницы
+// ! : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :
+.header {
+    grid-area: header; // Положение в сетке
+    // Стили по умолчанию
+    width: 100%;
+    height: $header_h;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    grid-area: pageContent; // Положение в сетке
+    // Стили по умолчанию
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.footer {
+    grid-area: footer; // Положение в сетке
+    // Стили по умолчанию
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    // ! : : : : : : : : : : : : : : : : : : : : : : : 
+    // ! Для ВСЕХ устройств
+    // !  : : : : : : : : : : : : : : : : : : : : : : 
+    display: grid;
+    min-height: 100%;
+
+    // Линии
+    grid-template-rows:
+        $header_h // Header
+        minmax(100vh, auto) // Main
+        minmax($footer_h, auto); // Footer
+
+    // ! : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 
+    // ! Для НАСТОЛЬНЫХ устройств
+    // !  : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 
+    @media (max-width: $laptopL) {
+        // Положение в сетке
+        grid-template-areas:
+            "header header header"
+            " . pageContent . "
+            "footer footer footer";
+
+        // Колонки
+        grid-template-columns: 1fr // Отступ
+            minmax($mobileS, $laptopL_content) // Контент
+            1fr; // Отступ
+
+        .sidebar {
+            display: none; // ! Отключаем сайдбар
+        }
+    }
+}
