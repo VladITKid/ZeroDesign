@@ -297,7 +297,7 @@ table {
 
 .header-logo {
     grid-column: 1;
-    background-image: url("/frontend/assets/img/logo.svg");
+    background-image: url("../assets/img/logo.svg");
     width: 130px;
     height: 150%;
     background-size: contain;
@@ -334,11 +334,11 @@ table {
 }
 
 .header-icons__btn--search {
-    background-image: url("/frontend/assets/img/icon_search.svg")
+    background-image: url("../assets/img/icon_search.svg")
 }
 
 .header-icons__btn--cart {
-    background-image: url("/frontend/assets/img/icon_cart.svg")
+    background-image: url("../assets/img/icon_cart.svg")
 }
 
 .footer {
@@ -410,15 +410,15 @@ table {
 }
 
 .footer-socials__btn--first {
-    background-image: url("/frontend/assets/img/social_1.svg")
+    background-image: url("../assets/img/social_1.svg")
 }
 
 .footer-socials__btn--second {
-    background-image: url("/frontend/assets/img/social_2.svg")
+    background-image: url("../assets/img/social_2.svg")
 }
 
 .footer-socials__btn--third {
-    background-image: url("/frontend/assets/img/social_3.svg")
+    background-image: url("../assets/img/social_3.svg")
 }
 
 .footer-col--N1 {
@@ -530,7 +530,7 @@ table {
     grid-row: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url("/frontend/assets/img/img_1.png");
+    background-image: url("../assets/img/img_1.png");
     background-size: 50% auto;
     background-position: 100% center;
     background-repeat: no-repeat
@@ -593,26 +593,26 @@ table {
 }
 
 .homepage-sect-primary-icons__icon--first {
-    background-image: url("/frontend/assets/img/icon_1.svg")
+    background-image: url("../assets/img/icon_1.svg")
 }
 
 .homepage-sect-primary-icons__icon--second {
-    background-image: url("/frontend/assets/img/icon_2.svg")
+    background-image: url("../assets/img/icon_2.svg")
 }
 
 .homepage-sect-primary-icons__icon--third {
-    background-image: url("/frontend/assets/img/icon_3.svg")
+    background-image: url("../assets/img/icon_3.svg")
 }
 
 .homepage-sect-primary-icons__icon--fourth {
-    background-image: url("/frontend/assets/img/icon_4.svg")
+    background-image: url("../assets/img/icon_4.svg")
 }
 
 .homepage-sect-description {
     grid-row: 2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url("/frontend/assets/img/img_2.png");
+    background-image: url("../assets/img/img_2.png");
     background-size: 50% auto;
     background-position: 0% center;
     background-repeat: no-repeat
@@ -660,7 +660,7 @@ table {
 }
 
 .homepage-sect-3-card::before {
-    background-image: url("/frontend/assets/img/sprite_3.png")
+    background-image: url("../assets/img/sprite_3.png")
 }
 
 .homepage-sect-3-card-2::before {
@@ -680,7 +680,7 @@ table {
 }
 
 .homepage-sect-4-card::before {
-    background-image: url("/frontend/assets/img/sprite_4.png")
+    background-image: url("../assets/img/sprite_4.png")
 }
 
 .homepage-sect-4-card-2::before {
@@ -712,7 +712,7 @@ table {
 }
 
 .homepage-sect-5-card::before {
-    background-image: url("/frontend/assets/img/sprite_5.png")
+    background-image: url("../assets/img/sprite_5.png")
 }
 
 .homepage-sect-5-card-2::before {
@@ -760,7 +760,7 @@ table {
 }
 
 .homepage-sect-6-card::before {
-    background-image: url("/frontend/assets/img/sprite_3.png")
+    background-image: url("../assets/img/sprite_3.png")
 }
 
 .homepage-sect-6-card-2::before {
